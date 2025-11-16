@@ -15,7 +15,7 @@
         class="absolute inset-0 z-0 bg-gradient-to-b from-black/60 via-black/30 to-black/60 pointer-events-none"
       ></div>
       <div class="absolute top-4 right-4 z-20">
-        <DarkModeSwitch />
+        <DarkModeSwitch client:load />
       </div>
       <div class="relative z-10 max-w-6xl mx-auto px-4 py-16 sm:py-24">
         <span
